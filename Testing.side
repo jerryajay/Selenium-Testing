@@ -1,0 +1,238 @@
+{
+  "id": "f8d31d57-0d8d-4b9e-836d-ba22eea4bd69",
+  "version": "2.0",
+  "name": "Testing",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "59e1ed02-bc03-45d9-9d58-12f2ccfefc8e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "c9ad599c-7362-45f3-9935-5309967ed76a",
+    "name": "google",
+    "commands": [{
+      "id": "b25dc5ec-7394-4e2f-91a3-597d480a1fb2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04148a19-be05-4eb8-bf86-d92d81b348af",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c1b8554-d0bc-469a-a714-0b36700fac33",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "12a45336-86f6-4b2e-a312-aa91ab45a270",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello world java"
+    }, {
+      "id": "b2e3300a-3636-4435-a0b7-129b36174497",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e1a32d1b-8ffd-43cb-9cec-42013bde1531",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=#rso > .MjjYud:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Java Hello World - Your First Java Program - Programiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb1b6f5-d01f-4073-821f-347fd1c1d5fa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06884cc-8777-420b-bff8-9814c9b5ddfd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1431)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fa263d9-2f91-4142-a1d5-ec8b3a6a4e01",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2491)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd537e75-746e-47ee-a465-d647652f914f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3604)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e98b8879-49ac-4c38-9121-49947e2c84fa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4861)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a60e217-28d1-456e-b84e-485547269cd6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "149411a4-01d1-4b26-9a47-503d3871d623",
+      "comment": "",
+      "command": "open",
+      "target": "www.google.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c78a5683-6b6b-4f89-ab1a-c8b9357cc459",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1fc99fbc-d0be-4b86-a9b1-a5a01ee7e0db",
+    "name": "Google Sample Script",
+    "commands": [{
+      "id": "ab4d5f68-204c-4b95-a94b-99da1df23de4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f167f82-aa78-4fef-bf3a-ad183c1a138b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1012x812",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dcea721-43bb-49e9-b3a7-b14ddf786c9a",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5512afd7-de2b-4454-b2c6-32dc12985aae",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hello world java"
+    }, {
+      "id": "bcf5d226-3055-4fd6-88c5-8a0e40b00e52",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7753839d-af03-433c-a95d-958be079ba5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=#rso > .MjjYud:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Java Hello World - Your First Java Program - Programiz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "477bccae-3cd6-4e74-94bc-f167a8bb49b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1643)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b9c81f-cb34-46d8-bdf6-426bc27e5c09",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2320)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f06644a-045d-4e9b-b380-390ad6e00646",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2438)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6e3eb715-f357-4820-9d5e-ce493c0e1663",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9ad599c-7362-45f3-9935-5309967ed76a", "1fc99fbc-d0be-4b86-a9b1-a5a01ee7e0db"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
